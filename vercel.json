@@ -1,0 +1,13 @@
+{
+  "functions": {
+    // Cấu hình cho các Serverless Function trong thư mục 'api'
+    "api/**/*.js": { 
+      "maxDuration": 60,  // Tăng thời gian chờ lên 60 giây
+      "memory": 1024        // Tăng bộ nhớ lên 1024MB (1GB)
+    },
+    "api/**/*.ts": {
+      "maxDuration": 60, 
+      "memory": 1024
+    }
+  }
+}
